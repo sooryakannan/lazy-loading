@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+/* @media print { */
+ 
+    /* html, */
+    /* body { */
+
+        /* Hide the whole page */
+        /* display: none; */
+       
+    /* } */
+/* } */
+
+
+
+
+div {
+    padding: 10px;
+}

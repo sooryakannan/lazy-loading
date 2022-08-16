@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-2">
+            <ul>
+                <li  (click)="home()"><a [routerLink]="" >Home</a></li>
+                <li (click)="electronics()"> <a routerLink="electronics">Electronics</a> </li>
+                <li     (click)="kitchen()"> <a routerLink="kitchen" >Kitchen</a> </li>
+                <li  (click)="houseHold()"> <a routerLink="houseHold" >House hold</a> </li>
+                <li  (click)="fashion()"> <a routerLink="fashion">Fashion</a> </li>
+            </ul>
+        </div>
+        <div class="col-lg-10">
+            
+            <router-outlet name="product"></router-outlet>
+        </div>
+    </div>
+</div>
